@@ -1,0 +1,20 @@
+API 
+    /api/articles/
+    /api/users
+    /api/books
+    ....
+    ...
+
+
+cpmponents
+   App states = [Article]  
+     Articles (list container) => make api call to /api/articles
+                               => setState on the APP
+                            
+        Article (list Item)
+    
+state 
+   Articles 
+
+props
+
