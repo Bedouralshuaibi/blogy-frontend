@@ -59,7 +59,14 @@ class App extends React.Component {
 
     // })
     console.log(`the article created`);
-    addNewArticle()
+    addNewArticle(
+      {article: 
+        {
+        title:this.state.title,
+        author:this.state.author,
+        content:this.state.content
+      }}
+    )
     .then((response)=>{
       this.setState({ 
         articles: [
